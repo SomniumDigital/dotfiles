@@ -7,7 +7,7 @@
 	pt = !git tag -l | xargs git tag -d && git fetch -t #Purge all tags and retrieve new list from remote
 	push-oh = push origin head
 	push-oht = push -u origin head
-	pull-om = push origin head
+	pull-om = pull origin master
 	cano = commit --amend --no-edit
 [color]
 	ui = true
