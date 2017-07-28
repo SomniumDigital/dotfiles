@@ -1,0 +1,15 @@
+# This is Git's per-user configuration file.
+[alias]
+	co = checkout
+	br = branch
+	cim = commit -m
+	st = status
+	pt = !git tag -l | xargs git tag -d && git fetch -t #Purge all tags and retrieve new list from remote
+	push-oh = push origin head
+	push-oht = push -u origin head
+	pull-om = push origin head
+	cano = commit --amend --no-edit
+[color]
+	ui = true
+[user]
+	name = Stef
