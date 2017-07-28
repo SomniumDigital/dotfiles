@@ -2,6 +2,7 @@
 [alias]
 	co = checkout
 	br = branch
+	ci = commit
 	cim = commit -m
 	st = status
 	pt = !git tag -l | xargs git tag -d && git fetch -t #Purge all tags and retrieve new list from remote
