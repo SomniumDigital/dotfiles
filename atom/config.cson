@@ -1,0 +1,19 @@
+"*":
+  core:
+    telemetryConsent: "no"
+    themes: [
+      "seti-ui"
+      "monokai"
+    ]
+  editor: {}
+  "exception-reporting":
+    userId: "205ed944-875f-428a-9274-c59cebc637e2"
+  "linter-ui-default": {}
+  minimap:
+    plugins:
+      "highlight-selected": true
+      "highlight-selectedDecorationsZIndex": 0
+  "seti-ui":
+    compactView: true
+  welcome:
+    showOnStartup: false
