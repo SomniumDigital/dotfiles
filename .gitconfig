@@ -10,6 +10,7 @@
 	push-oh = push origin head
 	push-oht = push -u origin head
 	pull-om = pull origin master
+	pull-od = pull origin develop
 	cano = commit --amend --no-edit
 [color]
 	ui = true
